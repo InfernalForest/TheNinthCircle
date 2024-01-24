@@ -13,8 +13,8 @@ jobs:
       with:
         lfs: "true"
 
-    - name: Clone Unreal Engine
-      run: |
-        pwd
-        cd ..
-        git clone --depth 1 -b 5.3 https://github.com/EpicGames/UnrealEngine.git
+    # - name: Clone Unreal Engine
+    #   run: |
+    #     pwd
+    #     cd ..
+    #     git clone --depth 1 -b 5.3 https://github.com/EpicGames/UnrealEngine.git
