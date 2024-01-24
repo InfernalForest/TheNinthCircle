@@ -17,4 +17,4 @@ jobs:
       run: |
         pwd
         cd ..
-        git clone --depth 1 -b 5.3 https://github.com/InfernalForest/UnrealEngine.git
+        git clone --depth 1 -b 5.3 git@github.com:InfernalForest/UnrealEngine.git
