@@ -1,0 +1,20 @@
+name: "CI/CD - Desktop"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        lfs: "true"
+
+    # - name: Clone Unreal Engine
+    #   run: |
+    #     pwd
+    #     cd ..
+    #     git clone --depth 1 -b 5.3 https://github.com/EpicGames/UnrealEngine.git
